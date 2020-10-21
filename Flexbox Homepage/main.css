@@ -1,0 +1,94 @@
+html * {
+
+}
+
+
+body {
+  background-color: #F3F3F3;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 0.95em;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-size: 1.0em;
+  font-weight: 600;
+}
+
+main{
+
+}
+
+.flexcontainer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+.contentbox {
+    background-color: #ffffff;
+    width: 40vw;
+    border: 1px solid #c9c9c9;
+
+}
+.contentitem {
+    background-color: #ffffff;
+    border: 1px solid #c9c9c9;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+}
+.button {
+  background-color: #F3F3F3;
+  border: 1px solid #c9c9c9;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  float: right;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.2);
+}
+.button:hover {
+  background-color: #F9F9F9;
+}
+.red {
+  background-color: #f44336;
+}
+.white
+{
+  background-color: #ffffff;
+}
+.pic {
+  width: 40vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.forgot {
+  color: black;
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  display: inline-block;
+}
+@media screen and (min-width: 1000px) {
+  body {
+     font-size: 1.0em;
+  }
+}
